@@ -5,6 +5,10 @@ Description
 -----------
 Launch security group and provision three ec2-instance (t2.micro). All the instances are launched parallelly i.e 𝐔𝐬𝐞𝐝 𝐀𝐬𝐲𝐧𝐜𝐡𝐫𝐨𝐧𝐨𝐮𝐬 𝐚𝐩𝐩𝐫𝐨𝐚𝐜𝐡, 𝐨𝐩𝐭𝐢𝐦𝐢𝐳𝐞𝐝 𝐟𝐨𝐫 𝐞𝐟𝐟𝐞𝐜𝐭𝐢𝐯𝐞 𝐚𝐮𝐭𝐨𝐦𝐚𝐭𝐢𝐨𝐧.
 
+
+NOTE : You can provision more ec2 instance by copy/paste the same code of worker or master in the aws_ec2/tasks/main.yml file.
+
+
 Requirements
 ------------
 
