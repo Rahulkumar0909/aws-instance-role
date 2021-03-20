@@ -1,5 +1,5 @@
 ---
-# vars file for aws_ec2
+# vars file for aws_ec2 role
 
 K8S_key_name: "aws_key"  #
 inst_type: "t2.micro"
