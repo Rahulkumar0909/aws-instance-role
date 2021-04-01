@@ -33,8 +33,8 @@
         assign_public_ip: true
     state: present
     tags:
-        K8S : master
-        Kube : cluster
+        K8S: master
+        Kube: cluster
     wait: yes
   async: 180
   poll: 0  
@@ -54,7 +54,7 @@
         assign_public_ip: true
     state: present
     tags:
-        K8S : worker
+        K8S: worker
         slave: worker1
         Kube: cluster
     wait: yes
@@ -76,7 +76,7 @@
         assign_public_ip: true
     state: present
     tags:
-        K8S : worker
+        K8S: worker
         slave: worker2
         Kube: cluster
     wait: yes
